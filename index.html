@@ -1,45 +1,63 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta charset="utf-8">
-    <title>Basic</title>
-    <link href="css/modules.css" rel="stylesheet">
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>Basic</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+</head>
+<body>
 
-    <ul class="skip-links">
-      <li><a href="#main">Jump to main content</a></li>
-      <li><a href="#nav">Jump to navigation</a></li>
-    </ul>
-    <header role="banner">
-      <h1>Pangolin</h1>
-      <nav role="navigation" id="nav" tabindex="0">
-        <ul>
-          <li><a href="main">Description</a></li>
-          <li><a href="#">Behavior</a></li>
-          <li><a href="#">Conservation</a></li>
-        </ul>
-      </nav>
-    </header>
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+  <header role="banner">
+    <h1>Pangolin</h1>
+    <nav role="navigation" id="nav" tabindex="0">
+      <ul>
+        <li><a href="main">Description</a></li>
+        <li><a href="#">Behavior</a></li>
+        <li><a href="#">Conservation</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <main role ="main" id="main" tabindex="0">
-      <section id="description" tabindex="0">
-        <h2>Desciption</h2>
-      </section>
+  <main role="main" id="main" tabindex="0">
+    <img src="images/map.jpg" alt="" aria-details="countries">
+    <section id="description" tabindex="0">
+      <h2>Desciption</h2>
 
-      <section id="behavior" tabindex="0">
-        <h2>Behavior</h2>
-      </section>
+      <div id="countries">
+        <h3>Some countries where pangolins are found</h3>
+        <ol>
+          <li>Botswana</li>
+          <li>Kenya</li>
+          <li>Mozambique</li>
+          <li>Namibia</li>
+          <li>South Africa</li>
+          <li>Tanzania</li>
+          <li>Uganda</li>
+          <li>Zambia</li>
+          <li>Zimbabwe</li>
+        </ol>
+      </div>
+    </section>
 
-      <section id="conservation" tabindex="0">
-        <h2>Concervation</h2>
-      </section>
-    </main>
+    <section id="behaviour" tabindex="0">
+      <h2>Behaviour</h2>
+      <a href="https://en.wikipedia.org/wiki/Pangolin#Behavior" aria-label="Read more about Pangolin behaviour">Read more</a>
+    </section>
 
-    <footer role="contentinfo">
-      <small>C 1821 Pangolin</small>
-    </footer>
+    <section id="conservation" tabindex="0">
+      <h2>Concervation</h2>
+      <a href="https://en.wikipedia.org/wiki/Pangolin#Conservation" aria-label="Read more about Pangolin conservation">Read more</a>
+    </section>
+  </main>
 
-  </body>
+  <footer role="contentinfo">
+    <small>© 1821 Pangolin</small>
+  </footer>
+
+</body>
 </html>
